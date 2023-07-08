@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-contener {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: burlywood;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.nav-contener ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+.nav-contener ul li {
+    padding: 30px;
+}
+
+.nav-contener ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.nav-contener ul li a:hover {
+    background-color: gray;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+/* nav section complt */
+.baner_section {
+    background-image: url(../asset/image/background.jpg), linear-gradient(#8f8d86, #f9f5f37b);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.Headding_text {
+    text-align: center;
+    font-size: 60px;
+    color: gold;
+}
+
+.color_head {
+    color: red;
+}
+
+.head_discription {
+    width: 40%;
+    margin: auto;
+    font-size: 27px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn button {
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+.DISCOVER {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    margin-right: 10px;
+}
