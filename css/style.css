@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     height: 70px;
     width: 100%;
-    background-color: burlywood;
+    background-color: black;
     align-items: center;
     padding: 20px;
 
@@ -33,7 +33,7 @@ body {
 .nav-contener ul li a {
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: white;
 }
 
 .nav-contener ul li a:hover {
@@ -48,9 +48,9 @@ body {
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     height: 100vh;
-    width: auto;
+    width: 100%;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     justify-content: center;
 
@@ -267,4 +267,75 @@ body {
     width: 100%;
     padding: 5px;
     border-radius: 10px;
+}
+
+/* futer section start  */
+.futer_section {
+    height: 300px;
+    width: 100%;
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(#06000297, #f6fafcc4);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.futer_section,
+li {
+    color: white;
+}
+
+.futer_section h1 {
+    color: red;
+    margin-top: 40px;
+}
+
+.socal_icon {
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+
+    margin-left: 20px;
+}
+
+.socal_icon a {
+    list-style: none;
+    color: white;
+}
+
+.socal_icon a i {
+    color: black;
+    margin-left: 20px;
+}
+
+.Supports li {
+    list-style: none;
+
+}
+
+.Useful_Links ul {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.Useful_Links ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.brand_logo {
+    margin-top: 40px;
+}
+
+.Contact_Information li {
+    list-style: none;
+    margin-bottom: 5px;
 }
