@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 .navbar-contener {
     display: flex;
     justify-content: space-between;
@@ -86,4 +91,180 @@
     color: white;
     font-weight: bolder;
     margin-right: 10px;
+}
+
+/* serbis_contener section  */
+.serbis_contener {
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(#0f0c0276, #17010192);
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnc {
+    padding: 20px 25px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+
+.serbis_heading {
+    font-size: 35px;
+    color: white;
+
+}
+
+.serbis_contener p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
+
+
+}
+
+.serbis_contener ol li {
+    color: white;
+
+    margin-left: 30px;
+
+}
+
+.athor_contener {
+    display: flex;
+}
+
+.athor_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.athor_img img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.more_contener {
+    border-left: 2px solid red;
+    padding-left: 20px;
+}
+
+.our_sirbis img {
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.our_sirbis {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.serbis_chart {
+    display: flex;
+    margin: 10px;
+
+}
+
+
+
+.contact_section {
+    display: flex;
+    height: 300px;
+    background-color: red;
+    /* margin-top: -50px; */
+    align-items: center;
+    gap: 5px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -50px;
+}
+
+.CONSULTATIOn img {
+    height: 200px;
+    width: 200px;
+
+}
+
+.CONSULTATIOn {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-right: 20px;
+}
+
+.contact_deatel {
+    color: black;
+    font-size: 25px;
+    border-left: 5px solid black;
+    padding-left: 20px;
+}
+
+.contact_section button {
+    padding: 20px 25px;
+    border-radius: 10px;
+    background-color: wheat;
+    font-weight: bolder;
+}
+
+/* cards section  */
+.bloge_section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bloge_section h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.bloge_section>p {
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.crd {
+    height: 350px;
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    text-align: center;
+}
+
+.crd img {
+    height: 200px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
 }
